@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+.login
+    {
+        width:300px;
+        height:450px;
+        background:black;
+        margin-left:300px;
+        margin-top:400px;
+        
+    }
+</style> 
+    <script language="javascript">
+    function btn()
+        {
+            i=f.txt.value;
+            j=f.pass.value;
+            
+            if(i=="Komal"&&j=="12345")
+                {
+                    open("");
+                }
+            else if(i=="")
+                {
+                    alert("Enter username");
+                }
+            else if(j=="")
+                {
+                    alert("Enter password");
+                }
+            eles if(i==""&&j=="")
+                {
+                    alert("Enter username and password");
+                }
+            else
+            {
+                document.write("404 Page Not Found");
+            }
+        }
+    
+    
+    
+    </script>
+    
+<title>
+first page
+</title>    
+</head>
+    <body>
+    <div class="login">
+    <form  name="f" class="loginform">
+        <p class="txt">Name</p>
+        <input type="text" name="txt" placeholder="Enter Username">
+        <p class="pw">Password</p>
+        <input type="password" name="pass" placeholder="Enter Password">
+        <br>
+        <input type="submit" value="login" onclick="btn()">
+        <form></form>    
+    </body>
+</html>
