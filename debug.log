@@ -1,6 +1,0 @@
-[0602/210110.775:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
-[0722/193736.997:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0722/193800.631:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0722/193807.952:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0722/193823.814:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0722/193836.027:ERROR:crash_report_database_win.cc(428)] unexpected header
